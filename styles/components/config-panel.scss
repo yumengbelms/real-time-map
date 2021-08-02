@@ -74,8 +74,8 @@
 		border: none;
 		outline: none;
 		cursor: pointer;
-		padding: 14px 16px;
-		width: 33%;
+		padding: 12px 14px;
+		width: 25%;
 	}
 
 	.RTM-TabSelected {
@@ -173,8 +173,8 @@
 	position: absolute;
 	height: 20px;
 	width: 20px;
-  left: 0;
-  top: 13px;
+   left: 0;
+   top: 13px;
 	background: url('./../../img/directions_car-24px.svg');
 	background-repeat: no-repeat;
 	background-position: center;
@@ -184,8 +184,8 @@
 	position: absolute;
 	height: 20px;
 	width: 20px;
-  left: 0;
-  top: 13px;
+   left: 0;
+   top: 13px;
 	background: url('./../../img/commute-24px.svg');
 	background-repeat: no-repeat;
 	background-position: center;
@@ -211,10 +211,21 @@
 .mdc-list-item__graphic.status {
 	position: absolute;
 	height: 20px;
-  width: 20px;
-  left: 0;
-  top: 13px;
+   width: 20px;
+   left: 0;
+   top: 13px;
 	background: url('./../../img/developer_board-24px.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.mdc-list-item__graphic.chart {
+	position: absolute;
+	height: 20px;
+   width: 20px;
+   left: 0;
+   top: 13px;
+	background: url('./../../img/chart-24px.svg');
 	background-repeat: no-repeat;
 	background-position: center;
 }
@@ -275,6 +286,10 @@
 
 #status-tab {
 	display: none;
+}
+
+#charts-tab {
+   display: none;
 }
 
 * {
